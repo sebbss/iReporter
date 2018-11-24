@@ -10,7 +10,7 @@ loginButton.addEventListener('click', (e) => {
 	if (user === 'admin' && passwrd === '123') {
 		window.location.href = 'admin.html';
 	} else {
-		window.location.href = 'index.html';
+		window.location.href = 'user.html';
 	}
 
 	e.preventDefault();
