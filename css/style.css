@@ -70,3 +70,88 @@ button:hover {
     display: table;
 } 
 
+.links{
+    display:grid;
+    grid-template-columns: 500px auto auto ;
+    text-align:center;
+    border-bottom: #fff;
+    margin-bottom:0px;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#showcase{
+    align-content: center;
+    text-align: center;
+    margin-top:100px;
+}
+header a:hover{
+    color:greenyellow;
+    font-weight:bold;
+    
+}
+.cards{
+    display:grid;
+    grid-template-columns: 350px 350px;
+    width:50%;
+    margin:0 auto;
+    grid-column-gap: 10px;
+}
+
+.card_1, .card_2{
+    width:100%;
+    padding:16px;
+    text-align: center;
+}
+.modal_container{
+    width:90%;
+    margin:0 auto;
+    position: relative;
+}
+.modal{
+    
+    position: fixed;
+    display:none;
+    background: #f44336dc;
+    z-index: 1; /* Sit on top */
+    margin-top:5%;
+    left: 0;
+    top: 0;
+    width: 70%; /* Full width */
+    height: 80%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */ 
+    margin-left: 15%;
+    
+    
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+.close:hover{
+    color:#fff;
+}
+.closei {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+.closei:hover{
+    color:#fff;
+}
