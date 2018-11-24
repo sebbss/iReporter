@@ -6,7 +6,7 @@ body{
     background-image: url(/imgs/air-cloudiness-clouds-414659.jpg)    
 }
 
-/* Full-width input fields */
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
@@ -74,7 +74,7 @@ button:hover {
     display:grid;
     grid-template-columns: 500px auto auto ;
     text-align:center;
-    border-bottom: #fff;
+    border-bottom: #fff solid;
     margin-bottom:0px;
 }
 a{
@@ -154,4 +154,34 @@ header a:hover{
 }
 .closei:hover{
     color:#fff;
+}
+.profile_card{
+    display:grid;
+    grid-template-columns: 2fr 5fr;
+    font-size: 20px;
+    grid-column-gap: 60px;
+    margin:0 auto;
+    margin-top:30px;
+}
+#profile_info div{
+    display:none;
+}
+#profile_info div:target{
+    display:block;
+}
+.hide ,.delete{
+    float:left;
+    width:50%;
+}
+.hide{
+    background-color: blue;
+}
+.delete{
+    background-color: red;
+}
+#profile p{
+    font-size: 11px;
+}
+#profile_info h1{
+    font-size: 20px;
 }
