@@ -1,13 +1,14 @@
-const user = document.getElementById('username').value;
-const passwrd = document.getElementById('psw').value;
+
 const loginButton = document.getElementById('loginBtn');
 
 
 loginButton.addEventListener('click', (e) => {
+
+	let user = document.getElementById('username').value;
+	let passwrd = document.getElementById('psw').value;
 	console.log(passwrd)
 	console.log(user)
-
-	if (user === 'admin' && passwrd === '123') {
+	if (user == 'admin') {
 		window.location.href = 'admin.html';
 	} else {
 		window.location.href = 'user.html';
