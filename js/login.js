@@ -9,9 +9,9 @@ loginButton.addEventListener('click', (e) => {
 	console.log(passwrd)
 	console.log(user)
 	if (user == 'admin') {
-		window.location.href = '../templates/admin.html';
+		window.location.href = './templates/admin.html';
 	} else {
-		window.location.href = '../templates/user.html';
+		window.location.href = './templates/user.html';
 	}
 
 	e.preventDefault();
