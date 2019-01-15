@@ -89,10 +89,13 @@ ul{
     font-weight: bold;
 
 }
-#showcase{
+.showcase{
     align-content: center;
     text-align: center;
     margin-top:100px;
+}
+.showcase h1{
+    font-size: 30px;
 }
 header a:hover{
     color:greenyellow;
